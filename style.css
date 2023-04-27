@@ -1,0 +1,112 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background: white;
+}
+
+.container-fluid
+{
+    width: 1000px;
+    margin: 60px auto;
+}
+
+.inputs 
+{
+    background-image: url("weather.jpg");
+    background-size: cover;                   
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 300px; 
+}
+
+.inputs input[type="text"] 
+{
+    height: 4rem;
+    width: 20rem;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid black; 
+    border-radius: 10px;
+    margin-right:4px ;
+}
+
+.inputs input[type="submit"] 
+{
+    height: 3rem;
+    width: 7rem;
+    background: #3C6255;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.inputs hr {
+    width: 50%;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 5px; 
+    background-color: black;
+    justify-content: center;
+}
+
+.display 
+{
+    text-align: center;
+    color: #FFF8D6;
+    width: 50%;
+}
+
+.wrapper 
+{
+    margin: 0 9rem;
+    background-color: #3C6255;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.wrapper p
+{
+    margin:20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: white;
+    font-size:18px;
+}
+
+.wrapper p span
+{
+    color: #FFF8D6;
+    font-size: 18px;
+}
+
+.main img {
+    width: 50%;
+    float: right;
+    margin-top: -390px;
+}
+
+@media only screen and (max-width: 1010px) {
+    .container-fluid
+    {
+        width: 900px;
+        transition: all 0.5s ease;
+    }
+  }
